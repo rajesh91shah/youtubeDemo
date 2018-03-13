@@ -11,6 +11,8 @@
 		0443EDB2205838FA006CA803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0443EDB0205838FA006CA803 /* Main.storyboard */; };
 		0443EDB4205838FA006CA803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0443EDB3205838FA006CA803 /* Assets.xcassets */; };
 		0443EDB7205838FA006CA803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0443EDB5205838FA006CA803 /* LaunchScreen.storyboard */; };
+		0443EDCA205842A8006CA803 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443EDC8205842A8006CA803 /* HomeViewController.swift */; };
+		0443EDCB205842A8006CA803 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0443EDC9205842A8006CA803 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0443EDB3205838FA006CA803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0443EDB6205838FA006CA803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0443EDB8205838FA006CA803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0443EDC8205842A8006CA803 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0443EDC9205842A8006CA803 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		0443EDC120583C9D006CA803 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0443EDC8205842A8006CA803 /* HomeViewController.swift */,
+				0443EDC9205842A8006CA803 /* HomeViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 				0443EDB7205838FA006CA803 /* LaunchScreen.storyboard in Resources */,
 				0443EDB4205838FA006CA803 /* Assets.xcassets in Resources */,
 				0443EDB2205838FA006CA803 /* Main.storyboard in Resources */,
+				0443EDCB205842A8006CA803 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0443EDAD205838FA006CA803 /* AppDelegate.swift in Sources */,
+				0443EDCA205842A8006CA803 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
